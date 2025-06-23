@@ -1,17 +1,17 @@
 {
-  "name": "vimeo-fetcher",
+  "name": "vimeo-parser-api",
   "version": "1.0.0",
-  "description": "Lightweight Puppeteer-based Vimeo metadata fetcher for Koyeb",
+  "description": "Lightweight Puppeteer + Express API for Vimeo playerConfig extraction",
   "main": "app.js",
+  "type": "module",
   "scripts": {
     "start": "node app.js"
   },
-  "type": "commonjs",
-  "engines": {
-    "node": ">=20.0.0"
-  },
   "dependencies": {
-    "express": "^5.1.0",
+    "express": "^4.19.2",
     "puppeteer": "^24.10.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
