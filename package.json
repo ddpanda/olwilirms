@@ -11,7 +11,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "puppeteer": "^21.3.8"
+    "express": "^5.1.0",
+    "puppeteer": "^24.10.2"
   }
 }
